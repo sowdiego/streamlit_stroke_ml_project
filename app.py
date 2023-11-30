@@ -21,7 +21,10 @@ def main():
     #### Partie A : Exploration de notre Dataset
     customers=pd.read_csv('healthcare-dataset-stroke-data.csv')
 
-    st.title('Projet Framework Streamlit pour le machine learning')
+    st.sidebar.write("----")
+    st.sidebar.title('Mamadou SOW M1 DSIA/ISI ')
+    st.sidebar.write("----")
+    st.title('Projet Framework Streamlit pour le machine learning ')
     st.write("-----")
     taches=['1. Exploration de données', '2. Représentations graphiques', '3. Modèles de machine learning']
 
